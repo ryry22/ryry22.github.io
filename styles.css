@@ -1,0 +1,144 @@
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-image: linear-gradient(90deg, rgba(65, 164, 253, 1), rgba(14, 244, 255, 1));
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    height: 200px;
+    margin-bottom: 150px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+header p {
+    margin: 5px 0;
+}
+
+.filter-image {
+    filter: invert(64%) sepia(61%) saturate(454%) hue-rotate(154deg) brightness(101%) contrast(101%);
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+section {
+    padding: 20px 0;
+}
+
+#about, #skills, #projects, #background, #contact {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+    padding: 20px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2em;
+    color: #333;
+}
+
+p {
+    text-align: center;
+}
+
+.btn {
+    display: block;
+    width: 200px;
+    margin: 20px auto;
+    padding: 10px;
+    background: #333;
+    color: #fff;
+    text-align: center;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background: #555;
+}
+
+.skills-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.skill {
+    background: #f4f4f4;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px;
+    flex-basis: 30%;
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    background: #f4f4f4;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px 0;
+}
+
+footer {
+    background-image: linear-gradient(90deg, rgba(65, 164, 253, 1), rgba(14, 244, 255, 1));
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+.sns {
+    display: flex;
+    justify-content: center; /* 中央に配置 */
+    align-items: center; /* 垂直方向に中央揃え */
+    margin-top: 60px;
+    margin-bottom: 40px;
+    flex-direction: row; /* 横方向に配置 */
+}
+
+.sns a {
+    margin: 0 20px; /* 左右にマージンを設定 */
+}
+
+.sns img {
+    width: 40px;
+    height: 40px;
+}
+
+.image-with-margin {
+    margin-top: -10px; /* 上部に負のマージンを追加して中央揃え */
+    margin-left: 10px; /* 左側にマージンを追加して間隔を調整 */
+    vertical-align: middle; /* 画像をテキストの中央に揃える */
+}
